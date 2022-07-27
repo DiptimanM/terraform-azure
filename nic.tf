@@ -1,6 +1,7 @@
 resource "azurerm_network_interface" "myterraformnic"{
     name = var.nicname
     location = var.location
+    resource_group_name = azurerm_resource_group.myTerraformGroup.name
     tags = var.tags
     ip_configuration{
         name = "internal"
