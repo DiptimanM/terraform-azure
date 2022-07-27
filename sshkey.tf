@@ -1,5 +1,5 @@
 resource "tls_private_key" "ssh-key"{
-    algorith = "RSA"
+    algorithm = "RSA"
     rsa_bits = 4096
 }
 
