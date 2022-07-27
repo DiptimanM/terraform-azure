@@ -6,4 +6,4 @@ tags = {
 vnetname = "myterraformvnetname"
 snetname = "myterraformsnetname"
 publicipname = "myterraformpublicip"
-nsgname = "mynsgname"
+nsgname = "myterraformnsg"
