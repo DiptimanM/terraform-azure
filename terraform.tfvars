@@ -5,3 +5,4 @@ tags = {
 }
 vnetname = "myterraformvnetname"
 snetname = "myterraformsnetname"
+publicipname = "myterraformpublicip"

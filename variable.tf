@@ -17,3 +17,7 @@ variable "vnetname"{
 variable "snetname"{
     type = string
 }
+
+variable "publicipname"{
+    type = string
+}
